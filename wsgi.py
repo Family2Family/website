@@ -25,4 +25,4 @@ def blog_single():
   return render_template("blog-single.html")
 
 if __name__ == "__main__":
-  app.run()
+  app.run(debug=True)
