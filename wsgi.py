@@ -20,9 +20,8 @@ def contact():
 @app.route("/blog.html")
 def blog():
   return render_template("blog.html")
-@app.route("/blog-single.html")
-def blog_single():
-  return render_template("blog-single.html")
+
+
 
 if __name__ == "__main__":
   app.run(debug=True)
