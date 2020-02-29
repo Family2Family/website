@@ -17,9 +17,9 @@ def pricing():
 @app.route("/contact.html")
 def contact():
   return render_template("contact.html")
-@app.route("/blog.html")
+@app.route("/donate.html")
 def blog():
-  return render_template("blog.html")
+  return render_template("donate.html")
 
 
 
