@@ -49,7 +49,7 @@ h6,
 }
 
 .text-primary {
-  color: #2d71a1 !important;
+  color: #18d26e !important;
 }
 
 .border-top {
@@ -73,7 +73,7 @@ figure figcaption {
 .section-heading {
   font-size: 3rem;
   font-weight: 700;
-  background: linear-gradient(-45deg, #007235, #2eaa25);
+  background: linear-gradient(-45deg, #39d45b, #0a8505);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -83,7 +83,7 @@ figure figcaption {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #2d71a1;
+  background: #18d26e;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -120,12 +120,12 @@ figure figcaption {
 
 .btn.btn-outline-white:hover {
   background: #fff;
-  color: #2d71a1;
+  color: #18d26e;
 }
 
 .btn.btn-primary {
-  background: #2d71a1;
-  background: linear-gradient(-45deg, #1391a5, #274685);
+  background: #18d26e;
+  background: linear-gradient(-45deg, #39d45b, #0a8505);
   color: #fff;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15);
 }
@@ -143,7 +143,7 @@ figure figcaption {
 }
 
 .feature-1 .wrap-icon.icon-1 {
-  background: linear-gradient(-45deg, #3b87bd, #2d71a2);
+  background: linear-gradient(-45deg, #4ecf55, #04b155;
 }
 
 .feature-1 .wrap-icon .icon {
@@ -173,7 +173,7 @@ figure figcaption {
 }
 
 .step .number {
-  background: linear-gradient(-45deg, #1391a5, #274685);
+  background: linear-gradient(-45deg, #39d45b, #0a8505);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
@@ -238,14 +238,14 @@ figure figcaption {
 }
 
 .testimonial-carousel .owl-dots .owl-dot.active > span {
-  background: linear-gradient(-45deg, #1391a5, #274685);
+  background: linear-gradient(-45deg, #39d45b, #0a8505);
 }
 
 /* Pricing */
 
 .pricing {
   padding: 50px;
-  background: linear-gradient(-45deg, #1391a5, #274685);
+  background: linear-gradient(-45deg, #39d45b, #0a8505);
   color: #fff;
   padding-bottom: 12rem !important;
   position: relative;
@@ -256,7 +256,7 @@ figure figcaption {
 }
 
 .pricing h3 {
-  color: #2d71a1;
+  color: #18d26e;
 }
 
 .pricing .price-cta {
@@ -298,14 +298,14 @@ figure figcaption {
 }
 
 .pricing .btn-white:hover {
-  color: #2d71a1;
+  color: #18d26e;
 }
 
 .pricing.popular {
   background: #fff;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
   color: #000000;
-  background: linear-gradient(-45deg, #1391a5, #274685);
+  background: linear-gradient(-45deg, #39d45b, #0a8505);
   color: #fff;
   box-shadow: none;
 }
@@ -320,13 +320,13 @@ figure figcaption {
 }
 
 .pricing.popular .btn-white {
-  border: 2px solid #2d71a1;
+  border: 2px solid #18d26e;
 }
 
 /* CTA Section */
 
 .cta-section {
-  background: linear-gradient(to right, #274685 0%, #3db3c5 100%);
+  background: linear-gradient(to right, #3ab14e 0%, #08a503 100%);
   color: #fff;
 }
 
@@ -393,11 +393,11 @@ figure figcaption {
 
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover,
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active {
-  color: #2d71a1 !important;
+  color: #18d26e !important;
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li.active a {
-  color: #2d71a1 !important;
+  color: #18d26e !important;
 }
 
 .sticky-wrapper .shrink {
@@ -417,7 +417,7 @@ figure figcaption {
 .form-control:focus {
   outline: none;
   box-shadow: none;
-  border: 1px solid #2d71a1;
+  border: 1px solid #18d26e;
 }
 
 .php-email-form .validate {
@@ -514,11 +514,11 @@ figure figcaption {
 
 .post-entry .post-text h3 a:hover {
   text-decoration: none;
-  color: #2d71a1;
+  color: #18d26e;
 }
 
 .post-entry .post-text .readmore {
-  color: #2d71a1;
+  color: #18d26e;
 }
 
 .sidebar-box {
@@ -664,9 +664,8 @@ figure figcaption {
 --------------------------------------------------------------*/
 
 .hero-section {
-  background: linear-gradient(to right, #1e7e34 0%, rgba(66, 212, 73, 0.8) 100%), url(../img/greennbckg.jpg);
+  background: linear-gradient(to right, rgba(39, 70, 133, 0.8) 0%, rgba(61, 179, 197, 0.8) 100%), url(../img/hero-bg.jpg);
   position: relative;
-  background-size:cover;
 }
 
 .hero-section .wave {
@@ -781,7 +780,7 @@ figure figcaption {
 }
 
 .site-navbar .site-navigation .site-menu > li > a:hover {
-  color: #2d71a1;
+  color: #18d26e;
 }
 
 .site-navbar .site-navigation .site-menu > li.active > a {
@@ -852,7 +851,7 @@ figure figcaption {
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown .active {
-  color: #2d71a1 !important;
+  color: #18d26e !important;
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown > li {
@@ -892,7 +891,7 @@ figure figcaption {
 .site-navbar .site-navigation .site-menu .has-children:hover > a,
 .site-navbar .site-navigation .site-menu .has-children:focus > a,
 .site-navbar .site-navigation .site-menu .has-children:active > a {
-  color: #2d71a1;
+  color: #18d26e;
 }
 
 .site-navbar .site-navigation .site-menu .has-children:hover,
@@ -993,7 +992,7 @@ figure figcaption {
 }
 
 .site-mobile-menu .site-nav-wrap a:hover {
-  color: #2d71a1;
+  color: #18d26e;
 }
 
 .site-mobile-menu .site-nav-wrap li {
@@ -1002,7 +1001,7 @@ figure figcaption {
 }
 
 .site-mobile-menu .site-nav-wrap li.active > a {
-  color: #2d71a1;
+  color: #18d26e;
 }
 
 .site-mobile-menu .site-nav-wrap .arrow-collapse {
@@ -1212,7 +1211,7 @@ figure figcaption {
 
 .social a:hover {
   color: #fff;
-  background: #2d71a1;
+  background: #18d26e;
 }
 
 @media screen and (max-width: 992px) {
