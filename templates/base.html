@@ -62,11 +62,11 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li class="active"><a href="/about" class="nav-link">About</a></li>
-                <li><a href="/vision" class="nav-link">Vision</a></li>
-                <li><a href="/timeline" class="nav-link">Timeline</a></li>
-                <li><a href="/donate" class="nav-link">Donate</a></li>
-                <li><a href="/contact" class="nav-link">Contact</a></li>
+                <li {% block about_active %}{% endblock %}><a href="/about" class="nav-link">About</a></li>
+                <li {% block vision_active %}{% endblock %}><a href="/vision" class="nav-link">Vision</a></li>
+                <li {% block timeline_active %}{% endblock %}><a href="/timeline" class="nav-link">Timeline</a></li>
+                <li {% block donate_active %}{% endblock %}><a href="/donate" class="nav-link">Donate</a></li>
+                <li {% block contact_active %}{% endblock %}><a href="/contact" class="nav-link">Contact</a></li>
               </ul>
             </nav>
           </div>
