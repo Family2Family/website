@@ -378,26 +378,22 @@ figure figcaption {
 }
 
 .sticky-wrapper.is-sticky .site-navbar {
-  background: #fff;
-  border-bottom: 1px solid transparent;
+  background: linear-gradient(to right, #1e7e34 0%, rgba(66, 212, 73, 0.8) 700%), url(../img/greennbckg.jpg);
+  border-bottom: 1px solid solid;
   box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-logo a {
-  color: #000000 !important;
-}
-
-.sticky-wrapper.is-sticky .site-navbar .site-menu > li > a {
-  color: #000000 !important;
+  color: white;
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover,
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active {
-  color: #2d71a1 !important;
+  color: #222062 !important;
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li.active a {
-  color: #2d71a1 !important;
+  color: #222062 !important;
 }
 
 .sticky-wrapper .shrink {
@@ -688,7 +684,7 @@ figure figcaption {
 }
 
 .hero-section.inner-page {
-  height: 60vh;
+  height: 20rem;
   min-height: 0;
 }
 
@@ -1164,7 +1160,7 @@ figure figcaption {
 --------------------------------------------------------------*/
 
 .footer {
-  padding: 5rem 0 2.5rem 0;
+  padding-top: 2.5rem;
 }
 
 .footer h3 {
