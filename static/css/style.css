@@ -378,8 +378,8 @@ figure figcaption {
 }
 
 .sticky-wrapper.is-sticky .site-navbar {
-  background: #fff;
-  border-bottom: 1px solid transparent;
+  background: linear-gradient(to right, #1e7e34 0%, rgba(66, 212, 73, 0.8) 700%), url(../img/greennbckg.jpg);
+  border-bottom: 1px solid solid;
   box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
 }
 
@@ -684,7 +684,7 @@ figure figcaption {
 }
 
 .hero-section.inner-page {
-  height: 18rem;
+  height: 20rem;
   min-height: 0;
 }
 
