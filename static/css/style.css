@@ -384,20 +384,16 @@ figure figcaption {
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-logo a {
-  color: #000000 !important;
-}
-
-.sticky-wrapper.is-sticky .site-navbar .site-menu > li > a {
-  color: #000000 !important;
+  color: white;
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover,
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active {
-  color: #2d71a1 !important;
+  color: #222062 !important;
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li.active a {
-  color: #2d71a1 !important;
+  color: #222062 !important;
 }
 
 .sticky-wrapper .shrink {
@@ -688,7 +684,7 @@ figure figcaption {
 }
 
 .hero-section.inner-page {
-  height: 60vh;
+  height: 18rem;
   min-height: 0;
 }
 
@@ -1164,7 +1160,7 @@ figure figcaption {
 --------------------------------------------------------------*/
 
 .footer {
-  padding: 5rem 0 2.5rem 0;
+  padding-top: 2.5rem;
 }
 
 .footer h3 {
