@@ -393,7 +393,7 @@ figure figcaption {
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li.active a {
-  color: #222062 !important;
+  color: #fff !important;
 }
 
 .sticky-wrapper .shrink {
