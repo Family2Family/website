@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    html{
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+  </style>
+  <meta charset="utf-8">
+  <title> {% block title %} {% endblock %} </title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="/static/img/favicon.png" rel="icon">
+  <link href="/static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700|Roboto:300,400,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="/static/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="/static/vendor/line-awesome/css/line-awesome.min.css" rel="stylesheet">
+  <link href="/static/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/static/vendor/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="/static/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Template Name: SoftLand
+    Template URL: https://bootstrapmade.com/softland-bootstrap-app-landing-page-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com/
+  ======================================================= -->
+</head>
+
+<body>
+
+  <div class="" id="outtest-container"> <!-- 0 padding so borders touch nicely on edge of container-->
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icofont-close js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body">
+      </div>
+    </div>
+
+    <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-10 col-lg-3 col-sm-10 d-flex justify-content-center">
+            <a href="/about" class="m-auto text-white mb-0" style="font-family: Poppins; font-size: 1.4rem">
+              Families 2 Families</a>
+          </div>
+
+          <div class="col-lg-9 col-md-10 d-sm-none d-lg-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li {% block about_active %}{% endblock %}><a href="/about" class="nav-link">About</a></li>
+                <li {% block contact_active %}{% endblock %}><a href="/contact" class="nav-link">Contact</a></li>
+                <li {% block vision_active %}{% endblock %}><a href="/vision" class="nav-link">Vision</a></li>
+                <li {% block timeline_active %}{% endblock %}><a href="/timeline" class="nav-link">Timeline</a></li>
+                <li {% block donate_active %}{% endblock %}><a href="/donate" class="nav-link">Donate</a></li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <!--   hide menu burger on large view  -->
+          <div class="col-sm-2 d-inline-block d-lg-none ml-md-0 py-3" style="position: relative;">
+
+            <a href="#" class="burger site-menu-toggle js-menu-toggle" data-toggle="collapse" data-target="#main-navbar">
+            <span></span> <!-- this span give illusion of three lines in mobile burger menu -->
+            </a>
+          </div>
+
+        </div>
+      </div>
+      {%block header %}  <!--  inheriting html can place code here --> {% endblock %}
+    </header>
+
+    <main class="p-1 m-1">
+          <div class="container p-3 m-3 justify-content-center">
+            <div class="row p-4 m-4"></div>
+            <div class="row"><div class="col"><h3 class="hero-text">Oops You've Landed On A Page That Doesn't Exist Yet!</h3></div></div>
+          </div>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+      <div class="container footer">
+        <div class="row" id="BIO, NAV, CONTACT INFO">
+
+            <!--  F2F Bio  -->
+            <div class="col-lg-4 col-md-4 mb-4 mb-md-0" id="about f2f bio" data-aos="fade-right">
+              <h3>About Families-2-Families</h3>
+              <p id="bio">
+                We are an upcoming platform that wants to create a network of families supporting other families,
+                to provide groceries and everyday necessities on an as-needed-basis.
+              </p>
+              <p class="social">
+                <a href="#"><span class="icofont-twitter"></span></a>
+                <a href="#"><span class="icofont-facebook"></span></a>
+              </p>
+            </div>
+<!--            &lt;!&ndash;   Footer Links        &ndash;&gt;-->
+<!--            <div class="col-md-4 mb-4 mb-md-0 " id="navigation container" data-aos="">-->
+<!--                &lt;!&ndash;   Navigation links           &ndash;&gt;-->
+<!--                <div class="row ">-->
+<!--                  <div class="col align-self-center"><h3 class="my-auto">Navigation</h3></div>-->
+<!--                  <div class="col"><a class="my-auto"href="/about">About</a></div>-->
+<!--                  <div class="col"><a class="my-auto"href="/vision">Vision</a></div>-->
+<!--                  <div class="col"><a class="my-auto"href="/donate">Donate</a></div>-->
+<!--                  <div class="col"><a class="my-auto"href="/contact">Contact</a></div>-->
+
+<!--                  &lt;!&ndash;   <li><a href="/timeline">Timeline</a></li>&ndash;&gt;-->
+<!--                </div>-->
+<!--            </div>-->
+
+            <!--   Contact Info Div Container  -->
+            <div class="col-lg-4 offset-lg-4 col-md-4 mb-4 mb-md-0" data-aos="fade-right">
+                <ul class="list-unstyled">
+                  <li class="mb-3">
+                    <strong class="d-block mb-1">Address</strong>
+                    <span><a class="text-primary">Los Angeles, California, USA</a></span>
+                  </li>
+                  <li class="mb-3">
+                    <strong class="d-block mb-1">Phone</strong>
+                    <span><a class="text-primary" href="tel:714-602-3968">(714)-602-3968</a></span>
+                  </li>
+                  <li class="">
+                    <strong class="d-block">Email</strong>
+                    <span> <a class="text-primary" href="mailto:contact@families2families.org?Subject=Family2Family%20Inquiry" target="_top">contact@families2families.org</a> </span>
+                  </li>
+                </ul>
+            </div>
+        </div>
+        <!--  Copyright stuff      -->
+        <div class="row justify-content-center text-center">
+          <div class="col-md-7 p-3">
+          <p class="copyright">&copy; Copyright Families-2-Families. All Rights Reserved</p>
+          <div class="credits">
+            Designed with <a href="https://getbootstrap.com/">Bootstrap4</a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </footer>
+
+  </div> <!-- .site-wrap -->
+
+
+
+  <!-- Vendor JS Files -->
+  <script src="/static/vendor/jquery/jquery.min.js"></script>
+  <script src="/static/vendor/jquery/jquery-migrate.min.js"></script>
+  <script src="/static/vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="/static/vendor/easing/easing.min.js"></script>
+  <script src="/static/vendor/php-email-form/validate.js"></script>
+  <script src="/static/vendor/sticky/sticky.js"></script>
+  <script src="/static/vendor/aos/aos.js"></script>
+  <script src="/static/vendor/owlcarousel/owl.carousel.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="/static/js/main.js"></script>
+
+</body>
+
+</html>
