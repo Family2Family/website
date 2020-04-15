@@ -10,6 +10,11 @@ app = Flask(__name__)
 def index():
     return render_template("about.html")
 
+@app.route("/es")
+@app.route("/about/es")
+def index_es():
+    return render_template("about.html")
+
 
 @app.route("/timeline")
 def timeline():
