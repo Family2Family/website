@@ -13,6 +13,8 @@ html {
   overflow-x: hidden;
 }
 
+
+
 body {
   font-family: "Roboto", sans-serif;
   color: #9fa1a4;
@@ -73,7 +75,7 @@ figure figcaption {
 .section-heading {
   font-size: 3rem;
   font-weight: 700;
-  background: linear-gradient(-45deg, #3db3c5, #274685);
+  background: linear-gradient(-45deg, #007235, #2eaa25);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -378,26 +380,22 @@ figure figcaption {
 }
 
 .sticky-wrapper.is-sticky .site-navbar {
-  background: #fff;
-  border-bottom: 1px solid transparent;
+  background: linear-gradient(to right, #1e7e34 0%, rgba(66, 212, 73, 0.8) 700%), url(../img/greennbckg.jpg);
+  border-bottom: 1px solid solid;
   box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-logo a {
-  color: #000000 !important;
-}
-
-.sticky-wrapper.is-sticky .site-navbar .site-menu > li > a {
-  color: #000000 !important;
+  color: white;
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover,
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active {
-  color: #2d71a1 !important;
+  color: #222062 !important;
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li.active a {
-  color: #2d71a1 !important;
+  color: #fff !important;
 }
 
 .sticky-wrapper .shrink {
@@ -664,8 +662,9 @@ figure figcaption {
 --------------------------------------------------------------*/
 
 .hero-section {
-  background: linear-gradient(to right, rgba(39, 70, 133, 0.8) 0%, rgba(61, 179, 197, 0.8) 100%), url(../img/hero-bg.jpg);
+  background: linear-gradient(to right, #1e7e34 0%, rgba(66, 212, 73, 0.8) 100%), url(../img/greennbckg.jpg);
   position: relative;
+  background-size:cover;
 }
 
 .hero-section .wave {
@@ -687,7 +686,7 @@ figure figcaption {
 }
 
 .hero-section.inner-page {
-  height: 60vh;
+  height: 20rem;
   min-height: 0;
 }
 
@@ -744,6 +743,7 @@ figure figcaption {
   position: absolute;
   top: 0;
   width: 100%;
+  background-color: green;
 }
 
 .site-navbar .site-logo {
@@ -1163,7 +1163,7 @@ figure figcaption {
 --------------------------------------------------------------*/
 
 .footer {
-  padding: 5rem 0 2.5rem 0;
+  padding-top: 2.5rem;
 }
 
 .footer h3 {
@@ -1266,3 +1266,5 @@ figure figcaption {
     font-size: 2rem;
   }
 }
+
+
